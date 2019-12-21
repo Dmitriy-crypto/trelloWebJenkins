@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a6aa577-8517-4645-a036-a9803af0311a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VIlzZTdwR7bqj34CWWgNZJ1flz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showModules" value="false" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Gradle.TeamDeletionTests.deleteTeamFromLeftNavMenu">
+    <configuration name="TeamCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.trello.qa.tests.TeamCreationTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TeamCreationTests.testTeamCreationFromButtonOnHeader" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.trello.qa.tests.TeamCreationTests.testTeamCreationFromButtonOnHeader&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TeamDeletionTests.deleteTeamFromLeftNavMenu" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.trello.qa.tests.TeamDeletionTests.deleteTeamFromLeftNavMenu&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'trelloWeb'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.TeamDeletionTests.deleteTeamFromLeftNavMenu" />
+        <item itemvalue="Gradle.TeamCreationTests.testTeamCreationFromButtonOnHeader" />
+        <item itemvalue="Gradle.TeamCreationTests" />
+        <item itemvalue="Gradle.Tests in 'trelloWeb'" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="130" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576949424848">
+      <screen x="0" y="0" width="1280" height="764" />
+    </state>
+    <state x="254" y="130" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.764@0.0.1280.764" timestamp="1576949424848" />
+    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1576954612449">
+      <screen x="0" y="0" width="1280" height="764" />
+    </state>
+    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1280.764@0.0.1280.764" timestamp="1576954612449" />
+    <state width="1234" height="612" key="GridCell.Tab.0.bottom" timestamp="1576954482348">
+      <screen x="0" y="0" width="1280" height="764" />
+    </state>
+    <state width="1234" height="612" key="GridCell.Tab.0.bottom/0.0.1280.764@0.0.1280.764" timestamp="1576954482348" />
+    <state width="1234" height="612" key="GridCell.Tab.0.center" timestamp="1576954482347">
+      <screen x="0" y="0" width="1280" height="764" />
+    </state>
+    <state width="1234" height="612" key="GridCell.Tab.0.center/0.0.1280.764@0.0.1280.764" timestamp="1576954482347" />
+    <state width="1234" height="612" key="GridCell.Tab.0.left" timestamp="1576954482346">
+      <screen x="0" y="0" width="1280" height="764" />
+    </state>
+    <state width="1234" height="612" key="GridCell.Tab.0.left/0.0.1280.764@0.0.1280.764" timestamp="1576954482346" />
+    <state width="1234" height="612" key="GridCell.Tab.0.right" timestamp="1576954482348">
+      <screen x="0" y="0" width="1280" height="764" />
+    </state>
+    <state width="1234" height="612" key="GridCell.Tab.0.right/0.0.1280.764@0.0.1280.764" timestamp="1576954482348" />
+  </component>
+</project>
