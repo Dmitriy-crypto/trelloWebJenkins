@@ -11,10 +11,7 @@ public class SessionHelper extends HelperBase {
         super(driver);
     }
 
-    public void clickContinueButton() {
 
-        click(By.cssSelector("[type=submit]"));
-    }
 
     public boolean isUserLoggedIn() {
 

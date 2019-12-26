@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable;
 
@@ -17,8 +18,8 @@ public class TeamHelper extends HelperBase {
     }
 
     //------------------Variables for teams fill----------------------------------------
-    public String teamName = "test3 - ";
-    public String description = "descr Learn_delete_ok";
+    //public String teamName;
+    //public String description = "descr Learn_delete_ok";
     // WebDriverWait driverWait;
     public String name2Team = "name2";
     public String desc = "desc";
@@ -39,9 +40,19 @@ public class TeamHelper extends HelperBase {
 
     public int getTeamsCount() {
 
-        new WebDriverWait(driver, 10).until(ExpectedConditions.
+        /*new WebDriverWait(driver, 10).until(ExpectedConditions.
                 presenceOfAllElementsLocatedBy(By.xpath("//*[@class='NC6qaILF7dGKjb']/../li")));
-        return sizeList(By.xpath("//*[@class='NC6qaILF7dGKjb']/../li"));
+        return sizeList(By.xpath("//*[@class='NC6qaILF7dGKjb']/../li")); */
+
+        if (isElementPresent(By.cssSelector("[data-test-id='home-team-tab-name']"))) {
+
+            return sizeList(By.xpath("//*[@class='NC6qaILF7dGKjb']/../li"));
+            //return sizeList(By.cssSelector("//*[@data-test-id='home-team-tab-name']/../.."));
+
+        } else {
+            return 0;
+        }
+
     }
 
     public void deleteTeam() {
@@ -94,5 +105,45 @@ public class TeamHelper extends HelperBase {
 
         click(By.cssSelector(".primary.wide.js-submit-profile"));
     }
+
+
+    public boolean isTeamsPresent() {
+
+        return getTeamsCount() > 0;
+    }
+
+    public void createTeamDefault() throws InterruptedException {
+
+        int beforeCountTeams = getTeamsCount();
+        System.out.println("testTeamCreationFromButtonOnHeader beforeCountTeams = " + beforeCountTeams);
+        clickButtonPlusUp();
+        selectCreateTeamFromDropDown(By.cssSelector("[data-test-id='header-create-team-button']"));
+        Thread.sleep(1000);
+
+       /* fillTeamCreationForm(
+                new TeamData()
+                        .withTeamName(teamName)
+                        .withDescription(description));*/
+        //  fillTeamCreationForm(team);
+        Thread.sleep(2000);
+        clickContinueButton();
+        Thread.sleep(3000);
+        click(By.xpath("//a[@class='eg0KI5SqghoOFd']"));//click on the inscription "return to home page"
+        String createdTeamName = getTeamNameFromPage();
+        //Assert.assertEquals(createdTeamName.toLowerCase(), getTeamName.toLowerCase());
+        returnToHome();
+    }
+
+    public void clickContinueButton() {
+
+        click(By.cssSelector("[type=submit]"));
+    }
+
+    public void fillTeamCreationForm(TeamData teamData) {
+
+        typeTextInTheFieldNameBoard(By.cssSelector("[data-test-id='header-create-team-name-input']"), teamData.getTeamName());
+        typeTextInTheFieldNameBoard(By.cssSelector("textarea"), teamData.getDescription());
+    }
+
 }
 

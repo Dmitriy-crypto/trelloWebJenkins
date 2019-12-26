@@ -34,12 +34,12 @@ public class HelperBase {
     public void returnToHome() {
         //    "//a[@href='/']"
         //span[@name='house']
-        if (isElementPresent(By.cssSelector("._3gUubwRZDWaOF0._2WhIqhRFBTG7Ry._2NubQcQM83YCVV"))) {
+       /* if (isElementPresent(By.cssSelector("._3gUubwRZDWaOF0._2WhIqhRFBTG7Ry._2NubQcQM83YCVV"))) {
             new WebDriverWait(driver, 15).until(ExpectedConditions.
-                    stalenessOf(driver.findElement(By.cssSelector("._3gUubwRZDWaOF0._2WhIqhRFBTG7Ry._2NubQcQM83YCVV"))));
+                    visibilityOf(driver.findElement(By.cssSelector("._3gUubwRZDWaOF0._2WhIqhRFBTG7Ry._2NubQcQM83YCVV"))));
             click(By.cssSelector("a[href='/']"));
             click(By.cssSelector("a[href='/']"));
-        } else
+        } else*/
             click(By.cssSelector("a[href='/']"));
     }
 
@@ -58,14 +58,11 @@ public class HelperBase {
 
     public void clickButtonPlusUp() {
 
+        new WebDriverWait(driver, 10)
+                .until(ExpectedConditions.elementToBeClickable(By.cssSelector("[data-test-id='header-create-menu-button']")));
         click(By.cssSelector("[data-test-id='header-create-menu-button']"));
     }
 
-    public void fillTeamCreationForm(String teamName, String description) {
-
-        typeTextInTheFieldNameBoard(By.cssSelector("[data-test-id='header-create-team-name-input']"), teamName);
-        typeTextInTheFieldNameBoard(By.cssSelector("textarea"), description);
-    }
 
     public void typeTextInTheFieldNameBoard(By locator, String text) {
 
@@ -78,5 +75,10 @@ public class HelperBase {
 
         new WebDriverWait(driver, time)
                 .until(ExpectedConditions.elementToBeClickable(locator)).click();
+    }
+
+    public void selectCreateTeamFromDropDown(By locator) {
+
+        click(locator);
     }
 }

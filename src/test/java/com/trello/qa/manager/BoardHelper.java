@@ -2,13 +2,16 @@ package com.trello.qa.manager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import static org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable;
 
 public class BoardHelper extends HelperBase {
 
     //----------------------------Variables for boards fill------------------------------------------------------
     public String x = "23";
     //------------------------------------------------------------------------------------------------------------
-    public String boardName = "Board off test - " + (int) System.currentTimeMillis();// name board to creat
+    public String boardName = "Board off test - ";// name board to creat
     boolean no_team = true;//option selection
     boolean privet_team = true;//option selection not work
     //else
@@ -31,9 +34,7 @@ public class BoardHelper extends HelperBase {
         clickButtonPlusUp();// button create " + "
 
         Thread.sleep(1000);
-        String boardName1 = "";
-        boardName1 = "#-" + x + " " + boardName;
-
+        String boardName1 = "#-" + x + " " + (boardName = "Board off test - " + (int) System.currentTimeMillis());
         selectCreateSomethingFromDropDown(By.cssSelector("[data-test-id='header-create-board-button']"));
         typeTextInTheFieldNameBoard(By.cssSelector("[data-test-id=\"create-board-title-input\"]"), boardName1);
         //----------------board type selection - with or without a team--------------------
@@ -90,11 +91,11 @@ public class BoardHelper extends HelperBase {
             clickButtonPlusUp();// button create " + "
 
             Thread.sleep(1000);
-            String boardName1 = "";
-            boardName1 = "#-" + x + " " + boardName;
+
+            String boardName1 = "#-" + x + " " + (boardName = "Board off test - " + (int) System.currentTimeMillis());
 
             selectCreateSomethingFromDropDown(By.cssSelector("[data-test-id='header-create-board-button']"));
-            typeTextInTheFieldNameBoard(By.cssSelector("[data-test-id=\"create-board-title-input\"]"), boardName1);
+            typeTextInTheFieldNameBoard(By.cssSelector("[data-test-id='create-board-title-input']"), boardName1);
             //----------------board type selection - with or without a team--------------------
             Thread.sleep(2000);
             click(By.xpath("//button[@class='W6rMLOx8U0MrPx']//span[@name='down']"/*button ^ select */));
@@ -141,12 +142,18 @@ public class BoardHelper extends HelperBase {
     }
 
     public int getNumbersPersonalBoards() {//number of boards personal all
-        return sizeList(By.xpath("//span[@class='icon-lg icon-member']/../../..//ul//li")) - 1;
+        //return sizeList(By.xpath("//span[@class='icon-lg icon-member']/../../..//ul//li")) - 1;
+        return driver.findElements(By.xpath("//*[@class='icon-lg icon-member']/../../..//li")).size() - 1;
     }
 
     public void selectFirstPersonalBoard() {
 
-        click(By.xpath("//span[@class='icon-lg icon-member']/../../..//ul//li"));
+        new WebDriverWait(driver, 15).until(elementToBeClickable(By.xpath("//*[@class='icon-lg icon-member']/../../..//li")));
+        click(By.xpath("//*[@class='icon-lg icon-member']/../../..//li"));
+        //*[@class='icon-lg icon-member']/../../..//li
+        //click(By.xpath("//span[@class='icon-lg icon-member']/../../..//ul//li[1]"));
+        // click(By.xpath("//div[@class='all-boards']//li[1]"));
+        //click(By.xpath("//[@class='boards-page-board-section-list']/li[1]"));
     }
 
     public void selectPersonalBoardByNumber(int n) {
@@ -174,13 +181,15 @@ public class BoardHelper extends HelperBase {
         returnToHome();
     }
 
-    public void closeTheBoard() {
+    public void closeTheBoard() throws InterruptedException {
 
+        Thread.sleep(1000);
         if (Visible(By.xpath("//a[@class='board-header-btn mod-show-menu js-show-sidebar']"))) { //button MENU
             click(By.xpath("//a[@class='board-header-btn mod-show-menu js-show-sidebar']"));
         } else {
             click(By.xpath("//a[@class='board-menu-navigation-item-link js-open-more']"));// button MORE down
         }
+        Thread.sleep(1000);
         click(By.xpath("//a[@class='board-menu-navigation-item-link js-close-board']"));// button close board down
     }
 
