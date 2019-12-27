@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable;
 
@@ -140,10 +139,12 @@ public class TeamHelper extends HelperBase {
     }
 
     public void fillTeamCreationForm(TeamData teamData) {
-
+//Thread.sleep(1000);
         typeTextInTheFieldNameBoard(By.cssSelector("[data-test-id='header-create-team-name-input']"), teamData.getTeamName());
+        // Thread.sleep(1000);
         typeTextInTheFieldNameBoard(By.cssSelector("textarea"), teamData.getDescription());
     }
+
 
 }
 

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a6aa577-8517-4645-a036-a9803af0311a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/trello/qa/manager/TeamData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinCodeInsightSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/trello/qa/tests/Text" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -10,36 +12,30 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/trello/qa/manager/BoardHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/trello/qa/manager/BoardHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/trello/qa/manager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/trello/qa/manager/HelperBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/trello/qa/manager/SessionHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/trello/qa/manager/SessionHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/trello/qa/manager/TeamHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/trello/qa/manager/TeamHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/trello/qa/tests/BoardsDeletionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/trello/qa/tests/BoardsDeletionTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/trello/qa/tests/TeamCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/trello/qa/tests/TeamCreationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/trello/qa/tests/TeamDeletionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/trello/qa/tests/TeamDeletionTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/trello/qa/tests/TeamModificationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/trello/qa/tests/TeamModificationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.trello.qa.tests.TeamDeletionTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.trello.qa.tests.TeamDeletionTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.trello.qa.tests.TeamDeletionTests.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.trello.qa.tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.trello.qa.tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.trello.qa.tests.TeamDeletionTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.trello.qa.tests.TeamDeletionTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.trello.qa.tests.TeamDeletionTests.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/trello/qa/manager/BoardHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trello/qa/manager/BoardHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/trello/qa/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trello/qa/manager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/trello/qa/manager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trello/qa/manager/SessionHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/trello/qa/manager/TeamHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trello/qa/manager/TeamHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/trello/qa/tests/BoardsDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trello/qa/tests/BoardsDeletionTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/trello/qa/tests/TeamCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trello/qa/tests/TeamCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/trello/qa/tests/TeamDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trello/qa/tests/TeamDeletionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/trello/qa/tests/TeamModificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/trello/qa/tests/TeamModificationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -86,40 +82,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../trello_Elena" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.TeamDeletionTests">
-    <configuration name="BoardsCreationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.TeamCreationTests">
+    <configuration name="TeamCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.trello.qa.tests.BoardsCreationTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="BoardsDeletionTests.deleteAllPersonalBoards" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.trello.qa.tests.BoardsDeletionTests.deleteAllPersonalBoards&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.trello.qa.tests.TeamCreationTests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -140,6 +117,26 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.trello.qa.tests.TeamCreationTests.testTeamCreationFromButtonOnHeaderDataProvider&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TeamCreationTests.testTeamCreationFromButtonOnHeaderDataProviderFromCsv" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.trello.qa.tests.TeamCreationTests.testTeamCreationFromButtonOnHeaderDataProviderFromCsv&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -196,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TeamDeletionTests" />
+        <item itemvalue="Gradle.TeamCreationTests" />
+        <item itemvalue="Gradle.TeamCreationTests.testTeamCreationFromButtonOnHeaderDataProviderFromCsv" />
         <item itemvalue="Gradle.TeamCreationTests.testTeamCreationFromButtonOnHeaderDataProvider" />
+        <item itemvalue="Gradle.TeamDeletionTests" />
         <item itemvalue="Gradle.Tests in 'com.trello.qa.tests'" />
-        <item itemvalue="Gradle.BoardsDeletionTests.deleteAllPersonalBoards" />
-        <item itemvalue="Gradle.BoardsCreationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -235,10 +232,10 @@
       <screen x="0" y="0" width="1280" height="764" />
     </state>
     <state x="236" y="42" key="#Scopes/0.0.1280.764@0.0.1280.764" timestamp="1577371495639" />
-    <state x="254" y="130" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576949424848">
+    <state x="254" y="130" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577432470983">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state x="254" y="130" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.764@0.0.1280.764" timestamp="1576949424848" />
+    <state x="254" y="130" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.764@0.0.1280.764" timestamp="1577432470983" />
     <state x="449" y="84" key="#com.intellij.ide.util.MemberChooser" timestamp="1577372857461">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
@@ -247,6 +244,10 @@
       <screen x="0" y="0" width="1280" height="764" />
     </state>
     <state x="425" y="211" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1280.764@0.0.1280.764" timestamp="1577125949166" />
+    <state x="96" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577450775261">
+      <screen x="0" y="0" width="1280" height="764" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.764@0.0.1280.764" timestamp="1577450775261" />
     <state x="195" y="221" width="935" height="343" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1577293453114">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
@@ -259,42 +260,42 @@
       <screen x="0" y="0" width="1280" height="764" />
     </state>
     <state x="121" y="60" key="DiffContextDialog/0.0.1280.764@0.0.1280.764" timestamp="1576955251522" />
-    <state x="424" y="138" key="FileChooserDialogImpl" timestamp="1577305034724">
+    <state x="424" y="138" key="FileChooserDialogImpl" timestamp="1577432447269">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state x="424" y="138" key="FileChooserDialogImpl/0.0.1280.764@0.0.1280.764" timestamp="1577305034724" />
-    <state width="1234" height="145" key="GridCell.Tab.0.bottom" timestamp="1577390487027">
+    <state x="424" y="138" key="FileChooserDialogImpl/0.0.1280.764@0.0.1280.764" timestamp="1577432447269" />
+    <state width="269" height="641" key="GridCell.Tab.0.bottom" timestamp="1577463066832">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state width="1234" height="145" key="GridCell.Tab.0.bottom/0.0.1280.764@0.0.1280.764" timestamp="1577390487027" />
-    <state width="1234" height="145" key="GridCell.Tab.0.center" timestamp="1577390487026">
+    <state width="269" height="641" key="GridCell.Tab.0.bottom/0.0.1280.764@0.0.1280.764" timestamp="1577463066832" />
+    <state width="269" height="641" key="GridCell.Tab.0.center" timestamp="1577463066831">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state width="1234" height="145" key="GridCell.Tab.0.center/0.0.1280.764@0.0.1280.764" timestamp="1577390487026" />
-    <state width="1234" height="145" key="GridCell.Tab.0.left" timestamp="1577390487025">
+    <state width="269" height="641" key="GridCell.Tab.0.center/0.0.1280.764@0.0.1280.764" timestamp="1577463066831" />
+    <state width="269" height="641" key="GridCell.Tab.0.left" timestamp="1577463066830">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state width="1234" height="145" key="GridCell.Tab.0.left/0.0.1280.764@0.0.1280.764" timestamp="1577390487025" />
-    <state width="1234" height="145" key="GridCell.Tab.0.right" timestamp="1577390487026">
+    <state width="269" height="641" key="GridCell.Tab.0.left/0.0.1280.764@0.0.1280.764" timestamp="1577463066830" />
+    <state width="269" height="641" key="GridCell.Tab.0.right" timestamp="1577463066831">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state width="1234" height="145" key="GridCell.Tab.0.right/0.0.1280.764@0.0.1280.764" timestamp="1577390487026" />
-    <state width="1234" height="2" key="GridCell.Tab.1.bottom" timestamp="1577301621235">
+    <state width="269" height="641" key="GridCell.Tab.0.right/0.0.1280.764@0.0.1280.764" timestamp="1577463066831" />
+    <state width="1234" height="200" key="GridCell.Tab.1.bottom" timestamp="1577441439998">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state width="1234" height="2" key="GridCell.Tab.1.bottom/0.0.1280.764@0.0.1280.764" timestamp="1577301621235" />
-    <state width="1234" height="2" key="GridCell.Tab.1.center" timestamp="1577301621233">
+    <state width="1234" height="200" key="GridCell.Tab.1.bottom/0.0.1280.764@0.0.1280.764" timestamp="1577441439998" />
+    <state width="1234" height="200" key="GridCell.Tab.1.center" timestamp="1577441439997">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state width="1234" height="2" key="GridCell.Tab.1.center/0.0.1280.764@0.0.1280.764" timestamp="1577301621233" />
-    <state width="1234" height="2" key="GridCell.Tab.1.left" timestamp="1577301621233">
+    <state width="1234" height="200" key="GridCell.Tab.1.center/0.0.1280.764@0.0.1280.764" timestamp="1577441439997" />
+    <state width="1234" height="200" key="GridCell.Tab.1.left" timestamp="1577441439996">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state width="1234" height="2" key="GridCell.Tab.1.left/0.0.1280.764@0.0.1280.764" timestamp="1577301621233" />
-    <state width="1234" height="2" key="GridCell.Tab.1.right" timestamp="1577301621234">
+    <state width="1234" height="200" key="GridCell.Tab.1.left/0.0.1280.764@0.0.1280.764" timestamp="1577441439996" />
+    <state width="1234" height="200" key="GridCell.Tab.1.right" timestamp="1577441439997">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state width="1234" height="2" key="GridCell.Tab.1.right/0.0.1280.764@0.0.1280.764" timestamp="1577301621234" />
+    <state width="1234" height="200" key="GridCell.Tab.1.right/0.0.1280.764@0.0.1280.764" timestamp="1577441439997" />
     <state x="358" y="87" width="563" height="586" key="RefactorJ.ExtractClass" timestamp="1577125659741">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
@@ -303,30 +304,30 @@
       <screen x="0" y="0" width="1280" height="764" />
     </state>
     <state x="412" y="1" width="747" height="722" key="RefactorJ.IntroduceParameterObject/0.0.1280.764@0.0.1280.764" timestamp="1577125922362" />
-    <state x="145" y="0" width="1032" height="768" key="SettingsEditor" timestamp="1577372327740">
+    <state x="0" y="0" width="1280" height="764" key="SettingsEditor" timestamp="1577427515963">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state x="145" y="0" width="1032" height="768" key="SettingsEditor/0.0.1280.764@0.0.1280.764" timestamp="1577372327740" />
+    <state x="0" y="0" width="1280" height="764" key="SettingsEditor/0.0.1280.764@0.0.1280.764" timestamp="1577427515963" />
     <state x="369" y="116" width="546" height="524" key="StructurePopup" timestamp="1577372869466">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
     <state x="369" y="116" width="546" height="524" key="StructurePopup/0.0.1280.764@0.0.1280.764" timestamp="1577372869466" />
-    <state x="236" y="104" key="Vcs.Push.Dialog.v2" timestamp="1576954954163">
+    <state x="236" y="104" key="Vcs.Push.Dialog.v2" timestamp="1577390772758">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state x="236" y="104" key="Vcs.Push.Dialog.v2/0.0.1280.764@0.0.1280.764" timestamp="1576954954163" />
-    <state x="333" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1577372826231">
+    <state x="236" y="104" key="Vcs.Push.Dialog.v2/0.0.1280.764@0.0.1280.764" timestamp="1577390772758" />
+    <state x="333" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1577423638798">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state x="333" y="209" key="com.intellij.ide.util.TipDialog/0.0.1280.764@0.0.1280.764" timestamp="1577372826231" />
+    <state x="333" y="209" key="com.intellij.ide.util.TipDialog/0.0.1280.764@0.0.1280.764" timestamp="1577423638798" />
     <state x="326" y="118" width="728" height="528" key="find.popup" timestamp="1577296227018">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
     <state x="326" y="118" width="728" height="528" key="find.popup/0.0.1280.764@0.0.1280.764" timestamp="1577296227018" />
-    <state x="347" y="1" key="refactoring.ChangeSignatureDialog" timestamp="1577133174633">
+    <state x="347" y="1" key="refactoring.ChangeSignatureDialog" timestamp="1577451056575">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state x="347" y="1" key="refactoring.ChangeSignatureDialog/0.0.1280.764@0.0.1280.764" timestamp="1577133174633" />
+    <state x="347" y="1" key="refactoring.ChangeSignatureDialog/0.0.1280.764@0.0.1280.764" timestamp="1577451056575" />
     <state x="303" y="85" width="672" height="678" key="search.everywhere.popup" timestamp="1577386706529">
       <screen x="0" y="0" width="1280" height="764" />
     </state>

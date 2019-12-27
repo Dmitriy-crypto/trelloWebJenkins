@@ -1,0 +1,15 @@
+public Iterator<Object[]> validTeamsfromcsv() throws IOException {
+    List<Object[]> list = new ArrayList<>();
+    BufferedReader reader =
+            new BufferedReader(new FileReader
+                    (new File("src/test/resources/Team.csv")));
+    String line = reader.readLine();
+    while (line!=null){
+      String[] split = line.split(",");
+      list.add(new Object[] {
+              new TeamData()
+              .withTeamName(split[0])
+              .withDescription(split[1])});
+      line = reader.readLine();
+    }
+    return  list.iterator();

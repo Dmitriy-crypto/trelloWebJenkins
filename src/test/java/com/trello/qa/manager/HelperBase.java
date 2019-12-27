@@ -7,6 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HelperBase {
 
+
     WebDriver driver;
 
     public HelperBase(WebDriver driver) {
@@ -66,11 +67,12 @@ public class HelperBase {
 
     public void typeTextInTheFieldNameBoard(By locator, String text) {
 
-        driver.findElement(locator).click();
-        driver.findElement(locator).clear();
-        driver.findElement(locator).sendKeys(text);
+        if (text != null) {
+            driver.findElement(locator).click();
+            driver.findElement(locator).clear();
+            driver.findElement(locator).sendKeys(text);
+        }
     }
-
     public void waitForElementAndClick(By locator, int time) {
 
         new WebDriverWait(driver, time)
@@ -81,4 +83,5 @@ public class HelperBase {
 
         click(locator);
     }
+
 }
