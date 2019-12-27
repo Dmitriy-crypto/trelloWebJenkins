@@ -19,7 +19,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class TeamCreationTests extends TestBase {
-    
+
     @DataProvider
     public Iterator<Object[]> validTeams() {
 
