@@ -80,8 +80,9 @@ public class TeamHelper extends HelperBase {
         Thread.sleep(1000);
     }
 
-    public void clickOnFirstTeam() {
-//
+    public void clickOnFirstTeam() throws InterruptedException {
+
+        Thread.sleep(2000);
         new WebDriverWait(driver, 15).until(elementToBeClickable(By.xpath("//*[@class='NC6qaILF7dGKjb']/../li")));
         click(By.xpath("//*[@class='NC6qaILF7dGKjb']/../li"));
     }
