@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a6aa577-8517-4645-a036-a9803af0311a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.trello.qa.tests.TeamDeletionTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.trello.qa.tests.TeamDeletionTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.trello.qa.tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.trello.qa.tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +233,8 @@
     <MESSAGE value="17 Added DATA provider from csv" />
     <MESSAGE value="18 Added task clean in build.gradle" />
     <MESSAGE value="19 deleted task clean in build.gradle" />
-    <option name="LAST_COMMIT_MESSAGE" value="19 deleted task clean in build.gradle" />
+    <MESSAGE value="20  task clean testclean in build.gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="20  task clean testclean in build.gradle" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -235,10 +247,10 @@
       <screen x="0" y="0" width="1280" height="764" />
     </state>
     <state x="236" y="42" key="#Scopes/0.0.1280.764@0.0.1280.764" timestamp="1577371495639" />
-    <state x="254" y="130" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577485470041">
+    <state x="254" y="130" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577524239859">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state x="254" y="130" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.764@0.0.1280.764" timestamp="1577485470041" />
+    <state x="254" y="130" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.764@0.0.1280.764" timestamp="1577524239859" />
     <state x="449" y="84" key="#com.intellij.ide.util.MemberChooser" timestamp="1577372857461">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
@@ -255,10 +267,10 @@
       <screen x="0" y="0" width="1280" height="764" />
     </state>
     <state x="195" y="221" width="935" height="343" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.1280.764@0.0.1280.764" timestamp="1577293453114" />
-    <state x="0" y="0" width="1280" height="764" key="CommitChangelistDialog2" timestamp="1577522053211">
+    <state x="0" y="0" width="1280" height="764" key="CommitChangelistDialog2" timestamp="1577522489375">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state x="0" y="0" width="1280" height="764" key="CommitChangelistDialog2/0.0.1280.764@0.0.1280.764" timestamp="1577522053211" />
+    <state x="0" y="0" width="1280" height="764" key="CommitChangelistDialog2/0.0.1280.764@0.0.1280.764" timestamp="1577522489375" />
     <state x="121" y="60" key="DiffContextDialog" timestamp="1577482380597">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
@@ -267,22 +279,22 @@
       <screen x="0" y="0" width="1280" height="764" />
     </state>
     <state x="424" y="138" key="FileChooserDialogImpl/0.0.1280.764@0.0.1280.764" timestamp="1577486073846" />
-    <state width="768" height="78" key="GridCell.Tab.0.bottom" timestamp="1577519790406">
+    <state width="768" height="178" key="GridCell.Tab.0.bottom" timestamp="1577523095526">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state width="768" height="78" key="GridCell.Tab.0.bottom/0.0.1280.764@0.0.1280.764" timestamp="1577519790406" />
-    <state width="768" height="78" key="GridCell.Tab.0.center" timestamp="1577519790405">
+    <state width="768" height="178" key="GridCell.Tab.0.bottom/0.0.1280.764@0.0.1280.764" timestamp="1577523095526" />
+    <state width="768" height="178" key="GridCell.Tab.0.center" timestamp="1577523095525">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state width="768" height="78" key="GridCell.Tab.0.center/0.0.1280.764@0.0.1280.764" timestamp="1577519790405" />
-    <state width="768" height="78" key="GridCell.Tab.0.left" timestamp="1577519790404">
+    <state width="768" height="178" key="GridCell.Tab.0.center/0.0.1280.764@0.0.1280.764" timestamp="1577523095525" />
+    <state width="768" height="178" key="GridCell.Tab.0.left" timestamp="1577523095525">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state width="768" height="78" key="GridCell.Tab.0.left/0.0.1280.764@0.0.1280.764" timestamp="1577519790404" />
-    <state width="768" height="78" key="GridCell.Tab.0.right" timestamp="1577519790406">
+    <state width="768" height="178" key="GridCell.Tab.0.left/0.0.1280.764@0.0.1280.764" timestamp="1577523095525" />
+    <state width="768" height="178" key="GridCell.Tab.0.right" timestamp="1577523095526">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state width="768" height="78" key="GridCell.Tab.0.right/0.0.1280.764@0.0.1280.764" timestamp="1577519790406" />
+    <state width="768" height="178" key="GridCell.Tab.0.right/0.0.1280.764@0.0.1280.764" timestamp="1577523095526" />
     <state width="1234" height="200" key="GridCell.Tab.1.bottom" timestamp="1577441439998">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
@@ -319,10 +331,10 @@
       <screen x="0" y="0" width="1280" height="764" />
     </state>
     <state x="435" y="87" key="VCS.ChangeListViewerDialog/0.0.1280.764@0.0.1280.764" timestamp="1577486269824" />
-    <state x="236" y="104" key="Vcs.Push.Dialog.v2" timestamp="1577522056798">
+    <state x="236" y="104" key="Vcs.Push.Dialog.v2" timestamp="1577522493517">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
-    <state x="236" y="104" key="Vcs.Push.Dialog.v2/0.0.1280.764@0.0.1280.764" timestamp="1577522056798" />
+    <state x="236" y="104" key="Vcs.Push.Dialog.v2/0.0.1280.764@0.0.1280.764" timestamp="1577522493517" />
     <state x="333" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1577423638798">
       <screen x="0" y="0" width="1280" height="764" />
     </state>
