@@ -25,9 +25,8 @@ test {
         systemProperty 'browser',  "${browser}"
     }
 }
-task testGroups (type :Test) {
-    useTestNG {
+task test(type: Test) {
+    useTestNG() {
         suites 'src/test/resources/testng.xml'
-
     }
 }
