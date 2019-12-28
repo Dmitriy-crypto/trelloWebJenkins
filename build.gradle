@@ -25,3 +25,8 @@ test {
         systemProperty 'browser',  "${browser}"
     }
 }
+task testclean(type: Test) {
+    useTestNG() {
+        suites 'src/test/resources/testng.xml'
+    }
+}
