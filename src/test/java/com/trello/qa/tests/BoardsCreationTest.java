@@ -4,7 +4,9 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+
 public class BoardsCreationTest extends TestBase {
+
 
     @Test(enabled = true)
     public void testCreationBoardsFromHomePage() throws InterruptedException {

@@ -5,7 +5,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.BrowserType;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
@@ -18,6 +17,7 @@ public class ApplicationManager {
     public String x = "23";
     public int numberBoards = 3;// number of boards to creat
     WebDriver driver;
+
     BoardHelper boardHelper;
     TeamHelper teamHelper;
     SessionHelper sessionHelper;
@@ -35,7 +35,7 @@ public class ApplicationManager {
 
     public void init() throws InterruptedException {
 
-        //String browser = null;
+        // String browser = null;
         if (browser.equals(BrowserType.CHROME)) {
             driver = new ChromeDriver();
         }
